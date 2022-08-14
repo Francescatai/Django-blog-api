@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="POST" action="/blog/upload" enctype="multipart/form-data">{% csrf_token %}
+<!--      <label for="comment">Comment:</label><br>-->
+<!--      <input type="text" id="comment" name="comment"><br>-->
+        {{form}}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
