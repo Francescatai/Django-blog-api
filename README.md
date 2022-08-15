@@ -1,4 +1,4 @@
-# Django-blog-api
+# 用Django快速搭建一個簡易Blog API
 ## 技術
 
 
